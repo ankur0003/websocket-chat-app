@@ -1,0 +1,7 @@
+package com.example.websocketchatapp
+
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
+import io.ktor.http.ContentType
+@HiltAndroidApp
+class ChatApp: Application()
