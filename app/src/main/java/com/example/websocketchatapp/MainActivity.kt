@@ -46,6 +46,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         //hello world
         //convert the app to full fledged chat app
+        //ok
         setContent {
             val navController = rememberNavController()
             NavHost(navController = navController, startDestination = "username_screen") {
