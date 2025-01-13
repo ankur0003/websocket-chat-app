@@ -44,6 +44,7 @@ import dagger.hilt.android.AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        //hello world
         setContent {
             val navController = rememberNavController()
             NavHost(navController = navController, startDestination = "username_screen") {
